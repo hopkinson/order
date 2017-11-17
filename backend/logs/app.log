@@ -20,3 +20,1901 @@ response body:
 undefined
 *************** response log end ***************
 
+[2017-11-17T09:49:14.449] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response status: 200
+response body: 
+"1111"
+*************** response log end ***************
+
+[2017-11-17T09:49:22.107] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /login
+request client ip:  ::1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T09:52:39.306] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T09:53:01.552] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::1
+request query:  {}
+response status: 200
+response body: 
+"1111"
+*************** response log end ***************
+
+[2017-11-17T09:53:16.987] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/admin/login
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T09:53:16.992] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/admin/login
+request client ip:  ::1
+request body: 
+{"account":"123","password":"123"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T09:53:45.241] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/login
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:12:19.607] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:12:29.587] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:13:53.589] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:13:53.597] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"123","password":"123"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:15:22.646] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:15:22.655] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"12","password":"12"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:16:00.182] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:16:00.191] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"312","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:16:18.749] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:16:23.767] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::1
+request query:  {}
+response status: 200
+response body: 
+"1111"
+*************** response log end ***************
+
+[2017-11-17T10:16:41.138] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/login
+request client ip:  ::1
+request query:  {}
+response status: 200
+response body: 
+"12111"
+*************** response log end ***************
+
+[2017-11-17T10:16:51.400] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:16:51.406] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"123","password":"123"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:17:08.028] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:17:08.037] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"123","password":"3123"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:17:19.160] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/signup
+request client ip:  ::1
+request query:  {}
+response status: 200
+response body: 
+"12122211"
+*************** response log end ***************
+
+[2017-11-17T10:17:35.792] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:17:35.796] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"http://localhost:3000/api/signup","password":"http://localhost:3000/api/signup"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:20:26.995] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:20:27.004] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"  .get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })","password":".get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:26:55.601] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:26:55.615] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"  .get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })","password":".get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:26:56.051] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:26:56.058] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"  .get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })","password":".get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:26:56.251] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:26:56.257] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"  .get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })","password":".get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:26:56.411] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:26:56.416] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"  .get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })","password":".get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:26:56.571] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:26:56.577] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"  .get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })","password":".get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:26:56.739] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:26:56.743] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::1
+request body: 
+{"email":"  .get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })","password":".get('/signup', async(ctx) => {     await ctx.render('signup', {title: '注册界面', session: ctx.session})   })"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:38:00.398] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:38:00.404] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"31"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:38:11.563] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T10:38:12.606] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /favicon.ico
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:38:15.335] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:38:20.807] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /apu
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:38:23.414] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+"1111"
+*************** response log end ***************
+
+[2017-11-17T10:38:49.711] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:38:49.716] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"","password":""}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:38:52.874] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:38:52.877] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:38:58.795] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:38:58.799] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"","password":""}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:38:59.857] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:38:59.862] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"","password":""}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:39:00.481] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:39:00.486] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"","password":""}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:39:00.834] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:39:00.839] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"","password":""}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:39:01.017] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:39:01.023] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"","password":""}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T10:39:08.549] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+"1111"
+*************** response log end ***************
+
+[2017-11-17T10:39:09.701] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+"1111"
+*************** response log end ***************
+
+[2017-11-17T10:39:22.675] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+"1111"
+*************** response log end ***************
+
+[2017-11-17T10:39:24.851] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+"1111"
+*************** response log end ***************
+
+[2017-11-17T12:11:18.352] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+"1111"
+*************** response log end ***************
+
+[2017-11-17T12:11:50.548] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response time: 1
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:11:50.554] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"31","password":"312"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T12:12:09.764] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T12:20:38.449] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:20:38.459] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"31"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:24:03.687] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:24:03.699] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"31"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:24:14.723] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:24:14.727] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"321","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:25:06.104] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:25:22.703] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+"1222111"
+*************** response log end ***************
+
+[2017-11-17T12:27:53.195] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:27:53.217] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"321","password":"321"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T12:35:13.991] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:35:14.006] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"312"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T12:37:54.493] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:37:54.507] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"312"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-17T12:38:41.568] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:38:41.588] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"3123","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:38:52.375] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:38:52.393] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:39:02.991] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:39:03.016] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:41:39.232] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:41:39.254] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:43:44.526] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:43:44.551] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"423","password":"423"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:46:21.507] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:46:21.517] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:46:50.412] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:46:50.432] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:46:59.110] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:46:59.136] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:57:11.474] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:57:11.496] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:57:47.516] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T12:57:47.535] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:02:12.874] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:02:12.895] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"321","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:04:54.248] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:04:54.266] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"321"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:09:23.312] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:09:23.329] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"321","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:10:21.731] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:10:21.749] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"321","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:10:33.013] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:10:33.018] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"321","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:10:41.044] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:10:41.050] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"321","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:11:15.168] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:11:15.184] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"321","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:11:15.543] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:11:15.552] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"321","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:11:32.214] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:11:32.221] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"321","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:13:04.746] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:13:04.760] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"312","password":"1111"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:14:14.948] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:14:14.960] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"3","password":"13"}
+response status: 200
+response body: 
+"1"
+*************** response log end ***************
+
+[2017-11-17T13:14:31.539] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:14:31.556] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"31","password":"31"}
+response status: 200
+response body: 
+"1"
+*************** response log end ***************
+
+[2017-11-17T13:15:47.017] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:15:47.027] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"31","password":"21"}
+response status: 200
+response body: 
+"1"
+*************** response log end ***************
+
+[2017-11-17T13:16:11.088] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"213","password":"123"}
+response status: 200
+response body: 
+"1"
+*************** response log end ***************
+
+[2017-11-17T13:16:34.928] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:16:34.937] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"123","password":"312"}
+response status: 200
+response body: 
+"1"
+*************** response log end ***************
+
+[2017-11-17T13:17:47.150] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:17:47.170] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"213","password":"321"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:18:30.001] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 204
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:18:30.013] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"213","password":"321"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:19:01.054] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"213213","password":"321312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:19:29.569] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+undefined
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:19:54.724] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"31","password":"21"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:22:08.885] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"321","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:23:02.955] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"213","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:23:32.502] [INFO] resLogger - 
+*************** response log start ***************
+request method: OPTIONS
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:23:45.633] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"3232","password":"323"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:24:22.404] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"3232","password":"323"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:24:50.121] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"3232312","password":"323"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:25:25.094] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"3232312","password":"323"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:25:46.693] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"3232312","password":"32321312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:26:19.421] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"3232312","password":"32321312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:26:37.949] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"3232312","password":"32321312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-17T13:27:13.886] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"11","password":"11"}
+response status: 200
+response body: 
+{"status":true}
+*************** response log end ***************
+
+[2017-11-17T13:36:25.129] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"12","password":"12"}
+response status: 200
+response body: 
+{"status":false,"message":"邮箱不存在"}
+*************** response log end ***************
+
+[2017-11-17T13:36:38.714] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"11","password":"11"}
+response status: 200
+response body: 
+{"status":false,"message":"邮箱不存在"}
+*************** response log end ***************
+
+[2017-11-17T13:37:35.593] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"11","password":"11"}
+response status: 200
+response body: 
+{"status":false,"message":"邮箱不存在"}
+*************** response log end ***************
+
+[2017-11-17T13:38:04.185] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"11","password":"11"}
+response status: 200
+response body: 
+{"status":false,"message":"邮箱不存在"}
+*************** response log end ***************
+
+[2017-11-17T13:38:27.993] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"11","password":"11"}
+response status: 200
+response body: 
+{"status":false,"message":"邮箱不存在"}
+*************** response log end ***************
+
+[2017-11-17T13:38:43.092] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"3232312","password":"11"}
+response status: 200
+response body: 
+{"status":false,"message":"邮箱不存在"}
+*************** response log end ***************
+
+[2017-11-17T13:39:24.030] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"3232312","password":"11"}
+response status: 200
+response body: 
+{"status":false,"message":"邮箱不存在"}
+*************** response log end ***************
+
+[2017-11-17T13:40:03.190] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"3232312","password":"11"}
+response status: 200
+response body: 
+{"status":false,"message":"邮箱不存在"}
+*************** response log end ***************
+
+[2017-11-17T13:42:07.087] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"12","password":"12"}
+response status: 200
+response body: 
+{"status":false,"message":"邮箱不存在"}
+*************** response log end ***************
+
+[2017-11-17T13:42:13.433] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"11","password":"12"}
+response status: 200
+response body: 
+{"status":false,"message":"密码错误"}
+*************** response log end ***************
+
+[2017-11-17T13:42:27.045] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"11","password":"11"}
+response status: 200
+response body: 
+{"status":true,"data":{"id":2,"name":"11","password":"11","email":"11","createdAt":"2017-11-17T05:27:13.000Z","updatedAt":"2017-11-17T05:27:13.000Z"}}
+*************** response log end ***************
+
+[2017-11-17T16:47:29.036] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"","password":""}
+response status: 200
+response body: 
+{"status":false,"message":"密码错误"}
+*************** response log end ***************
+
+[2017-11-17T16:47:35.353] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"12344","password":"344"}
+response status: 200
+response body: 
+{"status":false,"message":"邮箱不存在"}
+*************** response log end ***************
+
+[2017-11-17T16:47:44.512] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"email":"11","password":"11"}
+response status: 200
+response body: 
+{"status":true,"data":{"id":2,"name":"11","password":"11","email":"11","createdAt":"2017-11-17T05:27:13.000Z","updatedAt":"2017-11-17T05:27:13.000Z"}}
+*************** response log end ***************
+

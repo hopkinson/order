@@ -1,6 +1,6 @@
 /**
  * @Date:   2017-11-15T11:04:20+08:00
- * @Last modified time: 2017-11-15T17:10:56+08:00
+ * @Last modified time: 2017-11-17T10:13:47+08:00
  */
 import log4js from 'log4js'
 import LogConfig from '../config/log.config.js'
@@ -36,9 +36,7 @@ const formatError = (ctx, err, resTime) => {
   var logText = ''
   logText += '\n' + '*************** error log start ***************' + '\n'
   logText += formatReqLog(ctx.request, resTime)
-  logText += 'err name: ' + err.name + '\n'
-  logText += 'err message: ' + err.message + '\n'
-  logText += 'err stack: ' + err.stack + '\n'
+  logText += 'err: ' + err + '\n'
   logText += '*************** error log end ***************' + '\n'
   return logText
 }

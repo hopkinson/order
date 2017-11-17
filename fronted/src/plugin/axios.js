@@ -1,13 +1,12 @@
 /**
  * @Date:   2017-11-16T13:18:13+08:00
- * @Last modified time: 2017-11-16T13:31:43+08:00
+ * @Last modified time: 2017-11-17T16:47:26+08:00
  */
 import axios from 'axios'
 // import qs from 'qs'
 // import { Notification } from 'element-ui'
 // =============================================================================
-axios.defaults.baseURL = 'localhost:3000/api'
-axios.defaults.responseType = 'json'
+axios.defaults.baseURL = 'http://127.0.0.1:3000/api'
 // axios.defaults.transformRequest = [function (data) {
 //   // 数据序列化
 //   return qs.stringify(data)

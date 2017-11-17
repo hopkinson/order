@@ -1,18 +1,38 @@
 /**
  * @Date:   2017-11-16T17:42:08+08:00
- * @Last modified time: 2017-11-16T17:48:07+08:00
+ * @Last modified time: 2017-11-17T17:08:08+08:00
  */
 import User from '../models/user'
 const user = {
-  getUserByEmail: async email => {
-    if (!email) {
+  /**
+   * 通过姓名name获取用户
+   * @param  {[type]}  name [name名字]
+   */
+  getUserByName: async name => {
+    if (!name) {
       return {}
     }
-    await User.findOne({
+    let res = await User.findOne({
       where: {
-        email: email
+        name: name
       }
     })
+    return res
+  },
+  /**
+   * 新建用户
+   * @param  {[type]}  user [用户对象]
+   */
+  createUser: async(user) => {
+    try {
+      if (!user) {
+        return {}
+      }
+      let res = await User.create(user)
+      return res
+    } catch (err) {
+      console.log(err)
+    }
   }
 }
 export default user
