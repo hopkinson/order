@@ -1918,3 +1918,1773 @@ response body:
 {"status":true,"data":{"id":2,"name":"11","password":"11","email":"11","createdAt":"2017-11-17T05:27:13.000Z","updatedAt":"2017-11-17T05:27:13.000Z"}}
 *************** response log end ***************
 
+[2017-11-21T09:32:52.184] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T09:34:07.147] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T09:34:28.730] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"321"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T09:35:06.242] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"33"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T09:36:02.331] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"33"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T09:36:17.832] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"33"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T09:37:00.000] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"23","password":"312"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-21T09:37:51.445] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-21T09:38:34.220] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T09:39:02.068] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-21T09:39:14.163] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-21T09:39:26.418] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:39:26.748] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:39:26.923] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:39:27.057] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:39:35.375] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:40:08.420] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:41:12.674] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:41:39.915] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:41:59.102] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:42:35.673] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:45:01.658] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:45:07.757] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:45:41.828] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:46:06.888] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:47:26.105] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T09:48:22.829] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"","password":""}
+response status: 200
+response body: 
+{"status":false,"message":"密码错误"}
+*************** response log end ***************
+
+[2017-11-21T09:48:28.678] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-21T09:49:27.895] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response time: 1
+response status: 200
+response body: 
+{"status":false,"message":"用户不存在，正在新注册用户"}
+*************** response log end ***************
+
+[2017-11-21T10:00:36.065] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"3123"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:00:51.468] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"3123"}
+response status: 200
+response body: 
+{"status":201,"message":"密码错误"}
+*************** response log end ***************
+
+[2017-11-21T10:00:55.805] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"data":{"id":1,"name":"123","password":"123","createdAt":"2017-11-21T01:49:27.000Z","updatedAt":"2017-11-21T01:49:27.000Z"}}
+*************** response log end ***************
+
+[2017-11-21T10:10:50.384] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"321"}
+response status: 200
+response body: 
+{"status":201,"message":"密码错误"}
+*************** response log end ***************
+
+[2017-11-21T10:11:05.172] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"","password":""}
+response status: 200
+response body: 
+{"status":201,"message":"密码错误"}
+*************** response log end ***************
+
+[2017-11-21T10:11:07.523] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"3123","password":"312"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:11:22.404] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"31231","password":"312"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:12:29.231] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"321"}
+response status: 200
+response body: 
+{"status":201,"message":"密码错误"}
+*************** response log end ***************
+
+[2017-11-21T10:12:40.323] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"312","password":"312"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:12:48.015] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"321","password":"3"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:13:22.004] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"312","password":"312"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:13:55.543] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"data":{"id":1,"name":"123","password":"123","createdAt":"2017-11-21T01:49:27.000Z","updatedAt":"2017-11-21T01:49:27.000Z"}}
+*************** response log end ***************
+
+[2017-11-21T10:13:57.351] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"data":{"id":1,"name":"123","password":"123","createdAt":"2017-11-21T01:49:27.000Z","updatedAt":"2017-11-21T01:49:27.000Z"}}
+*************** response log end ***************
+
+[2017-11-21T10:13:57.791] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"data":{"id":1,"name":"123","password":"123","createdAt":"2017-11-21T01:49:27.000Z","updatedAt":"2017-11-21T01:49:27.000Z"}}
+*************** response log end ***************
+
+[2017-11-21T10:13:58.022] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"data":{"id":1,"name":"123","password":"123","createdAt":"2017-11-21T01:49:27.000Z","updatedAt":"2017-11-21T01:49:27.000Z"}}
+*************** response log end ***************
+
+[2017-11-21T10:13:58.224] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"data":{"id":1,"name":"123","password":"123","createdAt":"2017-11-21T01:49:27.000Z","updatedAt":"2017-11-21T01:49:27.000Z"}}
+*************** response log end ***************
+
+[2017-11-21T10:13:58.407] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"data":{"id":1,"name":"123","password":"123","createdAt":"2017-11-21T01:49:27.000Z","updatedAt":"2017-11-21T01:49:27.000Z"}}
+*************** response log end ***************
+
+[2017-11-21T10:20:21.885] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"2131"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:21:10.115] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"","password":""}
+response status: 200
+response body: 
+{"status":201,"message":"密码错误"}
+*************** response log end ***************
+
+[2017-11-21T10:21:12.115] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"ewq","password":"ewq"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:21:18.152] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"data":{"id":1,"name":"123","password":"123","createdAt":"2017-11-21T01:49:27.000Z","updatedAt":"2017-11-21T01:49:27.000Z"}}
+*************** response log end ***************
+
+[2017-11-21T10:21:46.123] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登陆成功","data":{"id":1,"name":"123","password":"123","createdAt":"2017-11-21T01:49:27.000Z","updatedAt":"2017-11-21T01:49:27.000Z"}}
+*************** response log end ***************
+
+[2017-11-21T10:22:24.401] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:22:32.651] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:23:21.877] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:24:07.668] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:24:14.539] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:27:10.370] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:29:16.792] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:30:37.829] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:30:44.267] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:31:19.481] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:32:12.278] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:36:00.813] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:36:46.908] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+err: undefined
+*************** error log end ***************
+
+[2017-11-21T10:37:23.707] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:38:13.673] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{}}
+*************** response log end ***************
+
+[2017-11-21T10:39:06.665] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T10:39:43.506] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T10:40:03.842] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T10:40:24.500] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T10:40:58.455] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:40:58.473] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T10:41:27.670] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:41:27.682] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T10:42:14.564] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:42:14.577] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T10:42:56.265] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:42:56.291] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T10:43:08.455] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:43:08.517] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 200
+response body: 
+{"status":200,"data":{"name":"12","password":"12"}}
+*************** response log end ***************
+
+[2017-11-21T10:45:55.846] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:45:55.900] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"data":{"name":"123","password":"123"}}
+*************** response log end ***************
+
+[2017-11-21T10:46:59.366] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"}}
+*************** response log end ***************
+
+[2017-11-21T10:47:04.532] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"1234","password":"1234"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T10:47:04.585] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"1234","password":"1234"}
+response status: 200
+response body: 
+{"status":200,"data":{"name":"1234","password":"1234"},"message":"注册成功"}
+*************** response log end ***************
+
+[2017-11-21T11:14:35.943] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"","password":""}
+response status: 200
+response body: 
+{"status":201,"message":"密码错误"}
+*************** response log end ***************
+
+[2017-11-21T11:14:44.038] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"admin","password":"admin"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-21T11:14:44.099] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"admin","password":"admin"}
+response status: 200
+response body: 
+{"status":200,"data":{"name":"admin","password":"admin"},"message":"注册成功"}
+*************** response log end ***************
+
+[2017-11-21T11:14:59.447] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"admin","password":"admin"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T14:48:39.708] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /
+request client ip:  ::1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T14:50:31.085] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"","password":""}
+response status: 200
+response body: 
+{"status":201,"message":"密码错误"}
+*************** response log end ***************
+
+[2017-11-21T14:50:34.057] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T14:51:24.245] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T14:54:03.133] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":1,"name":"12","password":"12","createdAt":"2017-11-21T02:43:08.000Z","updatedAt":"2017-11-21T02:43:08.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIiLCJpYXQiOjE1MTEyNDcyNDMsImV4cCI6MTUxMTI1MDg0M30.ApWgIV5uHVPzr8FVSmS9hGwjGs3WL_ejlbLs9JKxwNo"}
+*************** response log end ***************
+
+[2017-11-21T15:02:12.999] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMjQ3NzMyLCJleHAiOjE1MTEyNTEzMzJ9.NzMaMP1xiTgzf0xFD9twiX4qViDJklvlmbEyzgw6ys8"}
+*************** response log end ***************
+
+[2017-11-21T15:11:51.797] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMjQ4MzExLCJleHAiOjE1MTEyNTE5MTF9.iPDmolo1WG6E5llMDnwOjyotICLSwmIEAgZ_9S85tDo"}
+*************** response log end ***************
+
+[2017-11-21T16:11:30.132] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMjUxODkwLCJleHAiOjE1MTEyNTU0OTB9.cgySIIHrlutPDpBUZhjmQhFbDzu97Qni9eQw9A7PIGc"}
+*************** response log end ***************
+
+[2017-11-21T16:19:45.717] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMjUyMzg1LCJleHAiOjE1MTEyNTU5ODV9.VEw7ibIq5vbNMlJTxTjI6lxUGU0QJxIFQMZdxFv5FqM"}
+*************** response log end ***************
+
+[2017-11-21T16:46:13.463] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMjUzOTczLCJleHAiOjE1MTEyNTc1NzN9.qs2U4NS4KwDfAvAjiDZd4BC9jeyp0az7Af9U_GvwPv8"}
+*************** response log end ***************
+
+[2017-11-21T16:52:30.310] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMjU0MzUwLCJleHAiOjE1MTEyNTc5NTB9.awVOPJRF7IYwyMd2gUigJM0Rj5UqEvXwW6YlHokCr80"}
+*************** response log end ***************
+
+[2017-11-21T16:53:05.796] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T16:53:18.123] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMjU0Mzk4LCJleHAiOjE1MTEyNTc5OTh9.K2PMTiKa0Zkr3gRCQfT6rypCe-QGNtQDJHP10LTwYLo"}
+*************** response log end ***************
+
+[2017-11-21T16:53:37.028] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T16:54:55.123] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T16:55:36.233] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T16:55:36.315] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T16:56:58.003] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T16:56:58.088] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T16:57:12.887] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T16:57:12.960] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T16:57:52.921] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":200,"data":{}}
+*************** response log end ***************
+
+[2017-11-21T16:57:52.977] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":200,"data":{}}
+*************** response log end ***************
+
+[2017-11-21T17:02:00.610] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:02:00.696] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T17:02:36.848] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:02:36.944] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T17:03:04.610] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:03:04.690] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T17:03:16.600] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMjU0OTk2LCJleHAiOjE1MTEyNTg1OTZ9.HousIKy-8gBuWfGfJnLtCq4uz-iwWuJDfvGU5oJm11w"}
+*************** response log end ***************
+
+[2017-11-21T17:04:41.063] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMjU1MDgxLCJleHAiOjE1MTEyNTg2ODF9.BJDajarBCi_7Qmr5pjHayjVUTZlp1Qb-Mhp4Fy-WKSo"}
+*************** response log end ***************
+
+[2017-11-21T17:04:56.397] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:05:01.105] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMjU1MTAxLCJleHAiOjE1MTEyNTg3MDF9.alJMHdd9WjFZsjamcpUYZT87iAQl35xdmgDt3BaO2Rc"}
+*************** response log end ***************
+
+[2017-11-21T17:05:01.139] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T17:06:26.233] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMjU1MTg2LCJleHAiOjE1MTEyNTg3ODZ9.fleCH8KSG1ryuqVNjESikBAD8mQeyUsMqVqSYANQ5pw"}
+*************** response log end ***************
+
+[2017-11-21T17:06:26.264] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:10:04.656] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:10:04.707] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:10:18.701] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:10:18.756] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:10:32.936] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:10:33.028] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:10:53.776] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:10:53.851] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:11:14.994] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:11:15.089] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T17:11:36.402] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:11:36.487] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T17:12:26.985] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:12:27.081] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-21T17:15:09.873] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMjU1NzA5LCJleHAiOjE1MTEyNTkzMDl9.D645Uko81dW_uiro6PZOS9cznZtXsgONiMb2vMxWtog"}
+*************** response log end ***************
+
+[2017-11-21T17:15:09.904] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:15:31.089] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:15:31.221] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":200,"data":{}}
+*************** response log end ***************
+
+[2017-11-21T17:16:18.160] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:16:18.234] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":200,"data":{}}
+*************** response log end ***************
+
+[2017-11-21T17:17:02.859] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:17:05.287] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"124"}
+response status: 200
+response body: 
+{"status":201,"message":"密码错误"}
+*************** response log end ***************
+
+[2017-11-21T17:17:19.027] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":1,"name":"12","password":"12","createdAt":"2017-11-21T02:43:08.000Z","updatedAt":"2017-11-21T02:43:08.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIiLCJpYXQiOjE1MTEyNTU4MzksImV4cCI6MTUxMTI1OTQzOX0.N7QyrnLzmqPJn-qVZONxG9hn4dKBU02WGuVsEpQgwAE"}
+*************** response log end ***************
+
+[2017-11-21T17:17:19.363] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":200,"data":{}}
+*************** response log end ***************
+
+[2017-11-21T17:17:45.408] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-21T17:17:47.151] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":1,"name":"12","password":"12","createdAt":"2017-11-21T02:43:08.000Z","updatedAt":"2017-11-21T02:43:08.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIiLCJpYXQiOjE1MTEyNTU4NjcsImV4cCI6MTUxMTI1OTQ2N30.vGCl7wobqBG6dDIyTb6mAB-wF5wmYDmoZ6WHe4prG7M"}
+*************** response log end ***************
+
+[2017-11-21T17:17:47.186] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":200,"data":{}}
+*************** response log end ***************
+

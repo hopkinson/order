@@ -1,0 +1,60 @@
+[2017-11-21T09:37:00.000] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"23","password":"312"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-21T09:37:51.445] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-21T09:39:02.068] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-21T09:39:14.163] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"213","password":"312"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-21T09:48:28.678] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+err: undefined
+*************** error log end ***************
+
+[2017-11-21T10:36:46.908] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{}
+err: undefined
+*************** error log end ***************
+

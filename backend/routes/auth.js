@@ -1,6 +1,6 @@
 /**
  * @Date:   2017-11-15T11:11:45+08:00
- * @Last modified time: 2017-11-17T17:02:28+08:00
+ * @Last modified time: 2017-11-21T10:42:54+08:00
  */
 'use strict'
 import Router from 'koa-router'
@@ -13,11 +13,11 @@ router
  */
   .post('/login', Login.login)
 /**
+  * 注册
+  */
+  .post('/signup', Login.signup)
+/**
  * 找回密码
  */
   .post('/findPwd', Login.login)
-/**
- * 注册
- */
-  .post('/signup', Login.signup)
 export default router

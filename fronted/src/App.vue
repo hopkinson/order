@@ -1,12 +1,6 @@
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+@import url('http://at.alicdn.com/t/font_481572_21pqni5185pcik9.css');
+@import url('https://cdn.bootcss.com/normalize/7.0.0/normalize.min.css');
 </style>
 
 <template>

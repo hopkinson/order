@@ -1,28 +1,34 @@
 /**
  * @Date:   2017-11-16T13:18:13+08:00
- * @Last modified time: 2017-11-17T16:47:26+08:00
+ * @Last modified time: 2017-11-21T17:10:31+08:00
  */
 import axios from 'axios'
-// import qs from 'qs'
-// import { Notification } from 'element-ui'
+import {Toast} from 'mint-ui'
+import Token from '@/middleware/auth'
 // =============================================================================
 axios.defaults.baseURL = 'http://127.0.0.1:3000/api'
-// axios.defaults.transformRequest = [function (data) {
-//   // 数据序列化
-//   return qs.stringify(data)
-// }]
 axios.defaults.validateStatus = (status) => {
   return true
 }
 axios.interceptors.request.use((config) => {
+  if (Token.get()) {
+    axios.defaults.headers.common['Authorization'] = Token.get()
+  }
   return config
 })
 axios.interceptors.response.use((response) => {
-  let data = response.data
-  let status = response.status
-  return status === 200
-    ? Promise.resolve(data)
-    : Promise.reject(response)
+  let {data} = response
+  if (data.status === 200) {
+    if (data.message) {
+      Toast({message: data.message, iconClass: 'iconfont icon-roundcheck'})
+    }
+    Promise.resolve(data.data)
+    return data
+  } else {
+    Toast({message: data.message, iconClass: 'iconfont icon-information'})
+    Promise.reject(data.message)
+    return data
+  }
 })
 export default axios
 /* 1 根据process.env.NODE_ENV 获取对应的apiDomain
