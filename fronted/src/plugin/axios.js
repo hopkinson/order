@@ -1,6 +1,6 @@
 /**
  * @Date:   2017-11-16T13:18:13+08:00
- * @Last modified time: 2017-11-21T17:10:31+08:00
+ * @Last modified time: 2017-11-22T11:25:16+08:00
  */
 import axios from 'axios'
 import {Toast} from 'mint-ui'
@@ -10,10 +10,9 @@ axios.defaults.baseURL = 'http://127.0.0.1:3000/api'
 axios.defaults.validateStatus = (status) => {
   return true
 }
+axios.defaults.headers.common['Authorization'] = Token.get()
 axios.interceptors.request.use((config) => {
-  if (Token.get()) {
-    axios.defaults.headers.common['Authorization'] = Token.get()
-  }
+  axios.defaults.headers.common['Authorization'] = Token.get()
   return config
 })
 axios.interceptors.response.use((response) => {

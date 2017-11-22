@@ -3688,3 +3688,814 @@ response body:
 {"status":200,"data":{}}
 *************** response log end ***************
 
+[2017-11-22T11:08:49.937] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:08:49.997] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:09:03.922] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMzIwMTQzLCJleHAiOjE1MTEzMjM3NDN9.TuoXm9mXkc0YuOwohhCvLSU-fhGzpMIQD8x-iD79bqE"}
+*************** response log end ***************
+
+[2017-11-22T11:09:03.954] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:09:09.933] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:09:10.017] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:09:51.042] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:09:51.122] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:10:35.764] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:10:35.877] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:12:52.742] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:12:52.823] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:13:02.244] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:13:02.325] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:13:38.949] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMzIwNDE4LCJleHAiOjE1MTEzMjQwMTh9.DPXrWx8ry-o5K-C8nowFY9x2cNT4QBEtRPSJ8xv_OhE"}
+*************** response log end ***************
+
+[2017-11-22T11:13:38.986] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:13:53.753] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMzIwNDMzLCJleHAiOjE1MTEzMjQwMzN9.V3jLX2cWUFczokUCNS94dofiUxD9Tx-tiQkMBLoy3q8"}
+*************** response log end ***************
+
+[2017-11-22T11:13:53.792] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:13:55.514] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:14:49.836] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:14:57.746] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:15:46.356] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:15:57.615] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:16:03.979] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:16:08.054] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:16:15.520] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:16:30.633] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:17:21.005] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:17:38.687] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:17:42.417] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:17:45.726] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:19:25.110] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:21:07.317] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:21:24.400] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":100,"message":"token not found"}
+*************** response log end ***************
+
+[2017-11-22T11:21:36.194] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"124","password":"12321"}
+response status: 200
+response body: 
+{"status":404,"message":"用户不存在"}
+*************** response log end ***************
+
+[2017-11-22T11:21:36.270] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/signup
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"124","password":"12321"}
+response status: 200
+response body: 
+{"status":200,"data":{"name":"124","password":"12321"},"message":"注册成功","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTI0IiwiaWF0IjoxNTExMzIwODk2LCJleHAiOjE1MTEzMjQ0OTZ9.Ho13sqXbV_n50AicmS2max8JJj_w4h3_xsINKUcOP3U"}
+*************** response log end ***************
+
+[2017-11-22T11:21:36.318] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:24:58.568] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:25:18.016] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:25:58.873] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:26:33.489] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:26:49.891] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:27:38.978] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:29:28.479] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+"124"
+*************** response log end ***************
+
+[2017-11-22T11:29:56.933] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:30:26.868] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:58:27.151] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T11:59:03.548] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:03:54.205] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":200,"data":{"id":5,"name":"124","password":"12321","createdAt":"2017-11-22T03:21:36.000Z","updatedAt":"2017-11-22T03:21:36.000Z"}}
+*************** response log end ***************
+
+[2017-11-22T12:17:54.752] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfoByCurrent
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:18:51.797] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfoByCurrent
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:19:15.768] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfoByCurrent
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:21:07.425] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMzI0NDY3LCJleHAiOjE1MTEzMjgwNjd9.8vScLSF5un1LHe1Ov6J4Zzs0wYuxXhMik3ftQhJvWas"}
+*************** response log end ***************
+
+[2017-11-22T12:21:07.764] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfoByCurrent
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:21:37.754] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfoByCurrent
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:22:20.296] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfoByCurrent
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:22:46.188] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfoByCurrent
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:23:30.083] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfoByCurrent
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:23:35.027] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfoByCurrent
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:25:19.919] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfoByCurrent
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:26:44.475] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfoByCurrent
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:27:42.968] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfoByCurrent
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:28:49.594] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:28:56.583] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"123","password":"123"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIzIiwiaWF0IjoxNTExMzI0OTM2LCJleHAiOjE1MTEzMjg1MzZ9.IRdZiY-IxoEhqf_jHQnWVOBdTUscLHDXg2xRSc-fgNw"}
+*************** response log end ***************
+
+[2017-11-22T12:28:56.622] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:32:14.706] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":200,"data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"}}
+*************** response log end ***************
+
+[2017-11-22T12:34:18.722] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:34:23.648] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 404
+response body: 
+undefined
+*************** response log end ***************
+
+[2017-11-22T12:34:35.800] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":200,"data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"}}
+*************** response log end ***************
+
+[2017-11-22T13:10:22.317] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":200,"data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"}}
+*************** response log end ***************
+
+[2017-11-22T13:10:23.788] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":200,"data":{"id":2,"name":"123","password":"123","createdAt":"2017-11-21T02:45:55.000Z","updatedAt":"2017-11-21T02:45:55.000Z"}}
+*************** response log end ***************
+
+[2017-11-22T13:12:23.963] [INFO] resLogger - 
+*************** response log start ***************
+request method: POST
+request originalUrl:  /api/user/login
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"12","password":"12"}
+response status: 200
+response body: 
+{"status":200,"message":"登录成功","data":{"id":1,"name":"12","password":"12","createdAt":"2017-11-21T02:43:08.000Z","updatedAt":"2017-11-21T02:43:08.000Z"},"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiMTIiLCJpYXQiOjE1MTEzMjc1NDMsImV4cCI6MTUxMTMzMTE0M30.trCO6_d2VMOEuz1NZtZbs1jasmhrpvAo-Vd5AWka-Zc"}
+*************** response log end ***************
+
+[2017-11-22T13:12:31.327] [INFO] resLogger - 
+*************** response log start ***************
+request method: GET
+request originalUrl:  /api/user/getInfo
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response status: 200
+response body: 
+{"status":200,"data":{"id":1,"name":"12","password":"12","createdAt":"2017-11-21T02:43:08.000Z","updatedAt":"2017-11-21T02:43:08.000Z"}}
+*************** response log end ***************
+

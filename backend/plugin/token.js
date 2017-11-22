@@ -1,6 +1,6 @@
 /**
  * @Date:   2017-11-15T16:04:29+08:00
- * @Last modified time: 2017-11-21T17:13:13+08:00
+ * @Last modified time: 2017-11-22T11:26:58+08:00
  */
 import jwt from 'jsonwebtoken'
 import tokenConfig from '../config/token.json'
